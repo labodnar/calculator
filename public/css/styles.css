@@ -86,7 +86,7 @@
 
 .div-6-grid {
   display: grid;
-  /* justify-content: center; */
+  /* justify-content: center; xxxxxxxxxxxxxxxxxxxxxxxx*/
   /* align-items: center; */
   grid-template-columns: repeat(6, 50px);
 
