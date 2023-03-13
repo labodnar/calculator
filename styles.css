@@ -37,14 +37,17 @@ body {
 .output1 {
   color: white;
   word-wrap: break-word;
-  /* align-items: right; */
+  background-color: black;
+  text-align: center;
 }
 
 .output2 {
   color: white;
-  /* align-items: right; */
+  align-items: center;
   font-size: 1.5rem;
+  background-color: black;
   word-wrap: break-word;
+  text-align: center;
 }
 
 
@@ -62,9 +65,17 @@ body {
 
   /* width: 250px; */
 
-  
 }
 
+.container-out {
+  display: -moz-grid-line;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: auto;
+  /* width: 550px; */
+
+}
 
 
 
