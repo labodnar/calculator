@@ -70,6 +70,7 @@
   color: white;
   /* align-items: right; */
   font-size: 1.5rem;
+  word-wrap: break-word;
 }
 
 .cont-1 {
