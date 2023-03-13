@@ -1,5 +1,5 @@
 "use strict"
-import Calc from "/public/js/clsCalc.js"
+import Calc from "/clsCalc.js"
 
 
 const calculator = new Calc(document.getElementById("err1"), document.getElementById("output-1"),
