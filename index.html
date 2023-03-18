@@ -63,11 +63,12 @@
   <div>
     <button class="wide-key btn btn-outline-dark" id="clear">Clear</button>
     <button class="wide-key btn btn-outline-dark" id="back">Back</button>
+    <button class="wide-key btn btn-outline-dark" onclick="to_main()">Main</button>
   </div>
 
 
 
-  <!-- Output -->
+  <!-- Output Results -->
   <br>
   <div class="container-out">
     <div id="output-1" class="output1 col-4 bg-dark ">Initial output goes here</div>
@@ -82,5 +83,13 @@
 
 
 </body>
-
 </html>
+
+
+
+
+<script>
+  function to_main() {
+    window.location.href = "https://labodnar.github.io/"
+  }
+</script>

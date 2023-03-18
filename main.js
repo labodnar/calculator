@@ -2,6 +2,12 @@
 import Calc from "./clsCalc.js"
 
 
+function to_main() {
+  window.location.href = "https://labodnar.github.io/";
+}
+
+
+
 const calculator = new Calc(document.getElementById("err1"), document.getElementById("output-1"),
 document.getElementById("output-2"));
 
